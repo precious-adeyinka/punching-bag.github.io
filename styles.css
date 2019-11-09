@@ -1,0 +1,47 @@
+#bag {
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+  background: url(./img/bag.png) center no-repeat;
+  background-size: 80%;
+}
+
+#bag.burst {
+  background: url(./img/bag-burst.png) center no-repeat;
+  background-size: 80%;
+}
+
+#bag-health {
+  width: 300px;
+  border: 2px solid #333;
+  margin: 0 auto 20px auto;
+}
+
+#bag-health div {
+  height: 20px;
+  background: green;
+}
+
+#bag-health div.bar {
+  background: red;
+}
+
+#controls {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#punchBtn,
+#restartBtn {
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  margin: 1em;
+}
